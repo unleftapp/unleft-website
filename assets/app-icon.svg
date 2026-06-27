@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Unleft app icon</title>
+  <desc id="desc">A deep navy rounded square containing a warm ivory holder, a document, and a forward completion stroke.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17314E"/>
+      <stop offset="1" stop-color="#091827"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFFDF8"/>
+      <stop offset="1" stop-color="#F2EDE3"/>
+    </linearGradient>
+    <linearGradient id="back" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6F879F"/>
+      <stop offset="1" stop-color="#334B63"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="24" stdDeviation="24" flood-color="#000000" flood-opacity=".20"/>
+    </filter>
+    <filter id="smallShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="16" flood-color="#000000" flood-opacity=".16"/>
+    </filter>
+  </defs>
+  <rect x="28" y="28" width="968" height="968" rx="224" fill="url(#bg)"/>
+  <circle cx="790" cy="198" r="240" fill="#8FA6BA" opacity=".10"/>
+  <g filter="url(#smallShadow)">
+    <rect x="504" y="176" width="282" height="330" rx="54" fill="url(#back)" transform="rotate(15 645 341)"/>
+    <rect x="330" y="234" width="360" height="360" rx="54" fill="url(#paper)"/>
+    <rect x="392" y="322" width="188" height="34" rx="17" fill="#0F1F33" opacity=".92"/>
+    <rect x="392" y="390" width="232" height="28" rx="14" fill="#334B63" opacity=".48"/>
+    <rect x="392" y="452" width="196" height="28" rx="14" fill="#334B63" opacity=".48"/>
+    <path d="M330 533 L510 642 L690 533 L690 615 L510 731 L330 615 Z" fill="#E9E1D4"/>
+  </g>
+  <g filter="url(#shadow)" fill="none" stroke="#FFFDF8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M254 468 V680 Q254 808 382 808 H510" stroke-width="126"/>
+    <path d="M736 468 V616" stroke-width="126"/>
+    <path d="M566 716 L650 800 L806 608" stroke-width="108"/>
+  </g>
+</svg>

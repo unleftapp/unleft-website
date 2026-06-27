@@ -1,57 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Support — Unleft</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" href="assets/favicon.png" />
-</head>
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#0F1F33" />
+      <meta name="description" content="Get help with Unleft, report a beta issue, and learn what information to include safely." />
+      <link rel="canonical" href="https://unleft.app/support.html" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Unleft" />
+      <meta property="og:title" content="Support — Unleft" />
+      <meta property="og:description" content="Get help with Unleft, report a beta issue, and learn what information to include safely." />
+      <meta property="og:url" content="https://unleft.app/support.html" />
+      <meta property="og:image" content="https://unleft.app/assets/og-unleft.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Support — Unleft" />
+      <meta name="twitter:description" content="Get help with Unleft, report a beta issue, and learn what information to include safely." />
+      <meta name="twitter:image" content="https://unleft.app/assets/og-unleft.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+      <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+      <link rel="manifest" href="site.webmanifest" />
+      <link rel="stylesheet" href="styles.css" />
 
-<body>
-  <header class="container nav">
-    <a class="brand-wrap" href="index.html">
-        <img class="logo" src="./assets/logo.png" alt="Unleft logo" />
-        <span class="brand">UNLEFT</span>
-      </a>
+      <title>Support — Unleft</title>
+    </head>
+    <body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="shell nav-shell">
+    <a class="brand" href="index.html" aria-label="Unleft home">
+      <img src="assets/unleft-mark.svg" width="42" height="42" alt="" />
+      <span>UNLEFT</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+      <span></span><span></span><span></span><span class="sr-only">Open menu</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary" data-menu>
+      <a href="how-it-works.html">How it works</a>
+      <a href="use-cases.html">Use cases</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a class="nav-cta" href="contact.html">Get early access</a>
     </nav>
-  </header>
+  </div>
+</header>
 
-  <main class="container legal">
-    <div class="kicker">SUPPORT</div>
-    <h1>Need help with Unleft?</h1>
+      <main id="main"><section class="page-hero legal-hero"><div class="shell legal-shell" data-reveal><span class="section-kicker">SUPPORT</span><h1>Need help with Unleft?</h1><p class="hero-lead">Tell us what happened without sharing more personal information than necessary.</p></div></section><section class="section legal-content"><div class="shell legal-shell"><section class="legal-section"><h2>Email support</h2><p>Email <a href="mailto:hello@unleft.app?subject=Unleft%20Support">hello@unleft.app</a>. Include your iPhone model, app version and build number, what you were trying to do, what happened instead, and a screenshot when useful.</p></section><section class="legal-section"><h2>Protect your information</h2><p>Never email passwords, six-digit sign-in codes, private Apple credentials, full financial documents, or sensitive source files. Support may ask for a safer, limited description instead.</p></section><section class="legal-section"><h2>Family beta feedback</h2><p>During beta testing, report confusing wording, missing files, reminder problems, slow interactions, layout issues, accessibility barriers, backup or restore concerns, and anything that makes the Capture → Review → Handled loop harder.</p></section><section class="legal-section"><h2>Useful subject lines</h2><ul><li>Unleft Bug Report</li><li>Unleft Backup or Restore</li><li>Unleft Account Help</li><li>Unleft Accessibility Feedback</li><li>Unleft Early Access</li></ul></section><section class="legal-section"><h2>Response expectations</h2><p>Support is currently founder-led. We aim to review meaningful beta and account issues promptly, but response times are not guaranteed.</p></section></div></section></main>
 
-    <p>
-      If something is confusing, broken, or not working as expected, please contact us.
-    </p>
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <a class="brand footer-brand" href="index.html">
+        <img src="assets/unleft-mark.svg" width="42" height="42" alt="" />
+        <span>UNLEFT</span>
+      </a>
+      <p class="footer-tagline">Private life admin, kept simple.</p>
+      <p class="microcopy">Local-first. Optional account. Backup only by choice.</p>
+    </div>
+    <div class="footer-column">
+      <strong>Product</strong>
+      <a href="how-it-works.html">How it works</a>
+      <a href="use-cases.html">Use cases</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Early access</a>
+    </div>
+    <div class="footer-column">
+      <strong>Trust</strong>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="delete-data.html">Delete data</a>
+    </div>
+    <div class="footer-column">
+      <strong>Contact</strong>
+      <a href="mailto:hello@unleft.app">hello@unleft.app</a>
+      <span>Family beta preparing now</span>
+    </div>
+  </div>
+  <div class="shell footer-bottom">
+    <span>© 2026 Unleft. All rights reserved.</span>
+    <span>Built for the things you meant to come back to.</span>
+  </div>
+</footer>
+<script src="app.js" defer></script>
 
-    <h2>Email Support</h2>
-    <p>
-        <a href="mailto:hello.unleft@gmail.com">hello.unleft@gmail.com</a>
-    </p>
-
-    <h2>What to include</h2>
-    <ul>
-      <li>Your iPhone model if you know it.</li>
-      <li>What you were trying to do.</li>
-      <li>What happened instead.</li>
-      <li>A screenshot if helpful.</li>
-    </ul>
-
-    <h2>Beta Testing</h2>
-    <p>
-      Unleft is currently in early testing. Feedback about confusing wording, reminder issues, layout problems, or missing expectations is especially helpful.
-    </p>
-  </main>
-
-  <footer class="container footer">
-    <div>© 2026 Unleft.</div>
-    <a href="about.html">About</a>
-<a href="privacy.html">Privacy</a>
-<a href="terms.html">Terms</a>
-<a href="support.html">Support</a>
-<a href="delete-data.html">Delete Data</a>
-<a href="contact.html">Contact</a>
-  </footer>
-</body>
-</html>
+    </body>
+    </html>

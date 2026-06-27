@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://unleft.app/sitemap.xml

@@ -1,53 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Delete My Data — Unleft</title>
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="icon" type="image/png" href="assets/favicon.png" />
-</head>
+    <!doctype html>
+    <html lang="en">
+    <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="theme-color" content="#0F1F33" />
+      <meta name="description" content="Learn how to delete individual cards, local data, or an optional Unleft cloud account." />
+      <link rel="canonical" href="https://unleft.app/delete-data.html" />
+      <meta property="og:type" content="website" />
+      <meta property="og:site_name" content="Unleft" />
+      <meta property="og:title" content="Delete Data — Unleft" />
+      <meta property="og:description" content="Learn how to delete individual cards, local data, or an optional Unleft cloud account." />
+      <meta property="og:url" content="https://unleft.app/delete-data.html" />
+      <meta property="og:image" content="https://unleft.app/assets/og-unleft.png" />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:title" content="Delete Data — Unleft" />
+      <meta name="twitter:description" content="Learn how to delete individual cards, local data, or an optional Unleft cloud account." />
+      <meta name="twitter:image" content="https://unleft.app/assets/og-unleft.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png" />
+      <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+      <link rel="manifest" href="site.webmanifest" />
+      <link rel="stylesheet" href="styles.css" />
 
-<body>
-  <header class="container nav">
-    <a class="brand-wrap" href="index.html">
-        <img class="logo" src="./assets/logo.png" alt="Unleft logo" />
-        <span class="brand">UNLEFT</span>
+      <title>Delete Data — Unleft</title>
+    </head>
+    <body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header" data-header>
+  <div class="shell nav-shell">
+    <a class="brand" href="index.html" aria-label="Unleft home">
+      <img src="assets/unleft-mark.svg" width="42" height="42" alt="" />
+      <span>UNLEFT</span>
+    </a>
+    <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" data-menu-button>
+      <span></span><span></span><span></span><span class="sr-only">Open menu</span>
+    </button>
+    <nav id="site-nav" class="site-nav" aria-label="Primary" data-menu>
+      <a href="how-it-works.html">How it works</a>
+      <a href="use-cases.html">Use cases</a>
+      <a href="about.html">About</a>
+      <a href="privacy.html">Privacy</a>
+      <a class="nav-cta" href="contact.html">Get early access</a>
+    </nav>
+  </div>
+</header>
+
+      <main id="main"><section class="page-hero legal-hero"><div class="shell legal-shell" data-reveal><span class="section-kicker">DELETE DATA</span><h1>You remain in control.</h1><p class="hero-lead">Use the in-app controls to delete cards, local data, or an optional cloud account.</p><div class="legal-notice"><strong>Deletion is permanent.</strong> Export anything you need before confirming a destructive action.</div></div></section><section class="section legal-content"><div class="shell legal-shell"><section class="legal-section"><h2>Delete an individual card</h2><p>Open the card detail screen and choose Delete Card. The card is removed from local storage, and its managed local attachment is removed when it is no longer referenced.</p></section><section class="legal-section"><h2>Delete all local cards</h2><p>Open the Privacy & Data controls inside Unleft and choose the delete-all option. Review the confirmation carefully. This removes local cards, managed attachments, and scheduled reminders from the current device.</p></section><section class="legal-section"><h2>Delete your cloud account</h2><p>Open Control Center → Account & Sync → Delete Account. Follow both confirmation steps. The in-app process is designed to delete cloud cards, attachment metadata, private cloud files, profile data, and the authentication account. The confirmation explains whether local cards remain on the current iPhone.</p></section><section class="legal-section"><h2>Sign in with Apple</h2><p>For accounts created with Sign in with Apple, Unleft is completing the required server-side Apple authorization revocation step before public App Store release.</p></section><section class="legal-section"><h2>Need help?</h2><p>Email <a href="mailto:hello@unleft.app?subject=Delete%20My%20Unleft%20Data">hello@unleft.app</a> with the subject “Delete My Unleft Data.” Do not send passwords or sign-in codes.</p></section></div></section></main>
+
+<footer class="site-footer">
+  <div class="shell footer-grid">
+    <div>
+      <a class="brand footer-brand" href="index.html">
+        <img src="assets/unleft-mark.svg" width="42" height="42" alt="" />
+        <span>UNLEFT</span>
       </a>
-  </header>
+      <p class="footer-tagline">Private life admin, kept simple.</p>
+      <p class="microcopy">Local-first. Optional account. Backup only by choice.</p>
+    </div>
+    <div class="footer-column">
+      <strong>Product</strong>
+      <a href="how-it-works.html">How it works</a>
+      <a href="use-cases.html">Use cases</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Early access</a>
+    </div>
+    <div class="footer-column">
+      <strong>Trust</strong>
+      <a href="privacy.html">Privacy</a>
+      <a href="terms.html">Terms</a>
+      <a href="support.html">Support</a>
+      <a href="delete-data.html">Delete data</a>
+    </div>
+    <div class="footer-column">
+      <strong>Contact</strong>
+      <a href="mailto:hello@unleft.app">hello@unleft.app</a>
+      <span>Family beta preparing now</span>
+    </div>
+  </div>
+  <div class="shell footer-bottom">
+    <span>© 2026 Unleft. All rights reserved.</span>
+    <span>Built for the things you meant to come back to.</span>
+  </div>
+</footer>
+<script src="app.js" defer></script>
 
-  <main class="container legal">
-    <div class="kicker">DELETE DATA</div>
-    <h1>Delete your Unleft data.</h1>
-
-    <p>
-      Unleft is designed to keep you in control of what you save.
-    </p>
-
-    <h2>Delete inside the app</h2>
-    <p>
-      You can delete individual cards inside Unleft. Deleted cards are removed from the app on your device.
-    </p>
-
-    <h2>Delete all cards</h2>
-    <p>
-      If available in your app version, use the delete all cards option inside settings/privacy controls.
-    </p>
-
-    <h2>Need help?</h2>
-    <p>
-      Email <a href="mailto:hello.unleft@gmail.com">hello.unleft@gmail.com</a> with the subject “Delete My Data” and we will help guide you.
-    </p>
-  </main>
-
-  <footer class="container footer">
-    <div>© 2026 Unleft.</div>
-    <a href="about.html">About</a>
-<a href="privacy.html">Privacy</a>
-<a href="terms.html">Terms</a>
-<a href="support.html">Support</a>
-<a href="delete-data.html">Delete Data</a>
-<a href="contact.html">Contact</a>
-  </footer>
-</body>
-</html>
+    </body>
+    </html>
